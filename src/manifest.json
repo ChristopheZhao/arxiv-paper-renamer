@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "arXiv Paper Title Renamer",
+    "version": "1.0.0",
+    "description": "Automatically renames downloaded arXiv papers with their actual titles",
+    "permissions": [
+      "downloads",
+      "activeTab",
+      "notifications",
+      "storage",
+      "scripting",
+      "tabs"
+    ],
+    "host_permissions": [
+      "https://arxiv.org/*",
+      "https://*.arxiv.org/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://arxiv.org/*", "https://*.arxiv.org/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
