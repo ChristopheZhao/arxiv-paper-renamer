@@ -13,7 +13,12 @@ jobs:
       
       - name: Create ZIP file
         run: |
-          zip -r arxiv-paper-renamer.zip src/
+          mkdir temp_release
+          cp -r src/* temp_release/
+          cd temp_release
+          zip -r ../arxiv-paper-renamer.zip *
+          cd ..
+          rm -rf temp_release
       
       - name: Create Release
         id: create_release
