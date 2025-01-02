@@ -16,7 +16,7 @@ jobs:
           mkdir temp_release
           cp -r src/* temp_release/
           cd temp_release
-          zip -r ../arxiv-paper-renamer.zip *
+          zip -r ../extension.zip *  # 这里改为 extension.zip
           cd ..
           rm -rf temp_release
       
@@ -37,6 +37,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./arxiv-paper-renamer.zip
-          asset_name: arxiv-paper-renamer.zip
+          asset_path: ./extension.zip  
+          asset_name: extension.zip    
           asset_content_type: application/zip
