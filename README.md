@@ -27,7 +27,7 @@
 </tr>
 </table>
 
-When downloading a paper from arXiv, instead of a filename like `https://arxiv.org/pdf/2412.21154`, you'll get the actual paper title, like `Aviary-_training_language_agents_on_challenging_scientific_tasks.pdf`.
+When downloading a paper from arXiv, instead of a filename like `2412.21154v1.pdf`, you'll get the actual paper title, like `Aviary-_training_language_agents_on_challenging_scientific_tasks.pdf`.
 
 ## Features
 
@@ -40,7 +40,7 @@ When downloading a paper from arXiv, instead of a filename like `https://arxiv.o
 ## Installation
 
 ### Method 1: Easy Install (Recommended)
-1. Download the latest release from our [Releases Page](https://github.com/yourusername/arxiv-paper-renamer/releases)
+1. Download the latest release 'extension.zip' from our [Releases Page](https://github.com/ChristopheZhao/arxiv-paper-renamer/releases)
 2. Unzip the downloaded file
 3. Open Chrome and go to `chrome://extensions/`
 4. Enable "Developer mode" in the top right
@@ -56,7 +56,7 @@ When downloading a paper from arXiv, instead of a filename like `https://arxiv.o
 ### Method 2: Build from Source
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/arxiv-paper-renamer.git
+git clone https://github.com/ChristopheZhao/arxiv-paper-renamer.git
 
 # Navigate to the extension directory
 cd arxiv-paper-renamer/src
@@ -66,14 +66,14 @@ cd arxiv-paper-renamer/src
 
 ## Usage
 
-1. Visit any arXiv PDF page (e.g., https://arxiv.org/pdf/2412.21154)
+1. Visit any arXiv PDF page (e.g.,https://arxiv.org/pdf/2412.21154)
 2. The extension will automatically:
    - Detect the paper
    - Extract its title
    - Rename the downloaded PDF
 3. You'll see a notification on the top right of the screen when the file has been renamed
 
-![Rename notification](docs/screenshots/notification.png)
+<img src="docs/screenshots/notification.png" alt="Rename notification" width="300" style="display: block; margin: 0 auto;" />
 
 No configuration needed - it just works! 🎉
 
@@ -95,7 +95,7 @@ The extension:
 ### Local Development
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/arxiv-paper-renamer.git
+git clone https://github.com/ChristopheZhao/arxiv-paper-renamer.git
 cd arxiv-paper-renamer
 ```
 

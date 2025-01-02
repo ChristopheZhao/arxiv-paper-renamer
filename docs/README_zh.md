@@ -4,9 +4,9 @@
 
 <div align="center">
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/yourusername/arxiv-paper-renamer)](https://github.com/yourusername/arxiv-paper-renamer/releases)
-[![License](https://img.shields.io/github/license/yourusername/arxiv-paper-renamer)](LICENSE)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/arxiv-paper-renamer)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/ChristopheZhao/arxiv-paper-renamer)](https://github.com/yourusername/arxiv-paper-renamer/releases)
+[![License](https://img.shields.io/github/license/ChristopheZhao/arxiv-paper-renamer)](LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/ChristopheZhao/arxiv-paper-renamer)
 
 </div>
 
@@ -27,7 +27,7 @@
 </tr>
 </table>
 
-从 arXiv 下载论文时，文件名将从类似 `2412.17799v1.pdf` 的格式变为论文的实际标题，如 `Universal_In_Context_Image_Generation_in_Auto_Regressive_Vision_Language_Models.pdf`。
+从 arXiv 下载论文时，文件名将从类似 `2412.21154v1.pdf` 的格式变为论文的实际标题，如 `Aviary-_training_language_agents_on_challenging_scientific_tasks.pdf`。
 
 ## 特性
 
@@ -40,7 +40,7 @@
 ## 安装
 
 ### 方式一：简单安装（推荐）
-1. 从 [Releases 页面](https://github.com/yourusername/arxiv-paper-renamer/releases) 下载最新版本
+1. 从 [Releases 页面](https://github.com/ChristopheZhao/arxiv-paper-renamer/releases) 下载最新版本
 2. 解压下载的文件
 3. 打开 Chrome，访问 `chrome://extensions/`
 4. 在右上角启用"开发者模式"
@@ -56,7 +56,7 @@
 ### 方式二：从源码安装
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/arxiv-paper-renamer.git
+git clone https://github.com/ChristopheZhao/arxiv-paper-renamer.git
 
 # 进入扩展目录
 cd arxiv-paper-renamer/src
@@ -66,14 +66,14 @@ cd arxiv-paper-renamer/src
 
 ## 使用方法
 
-1. 访问任意 arXiv PDF 页面（例如：https://arxiv.org/pdf/2412.17799v1.pdf）
+1. 访问任意 arXiv PDF 页面（例如：https://arxiv.org/pdf/2412.21154）
 2. 扩展会自动：
    - 检测论文
    - 提取标题
    - 重命名 PDF 文件
 3. 下载时会看到重命名通知
 
-<img src="../docs/screenshots/notification.png" alt="重命名通知" width="300"/>
+<img src="../docs/screenshots/notification.png" alt="Rename notification" width="300" style="display: block; margin: 0 auto;" />
 
 无需任何配置 - 即装即用！🎉
 
@@ -94,7 +94,7 @@ cd arxiv-paper-renamer/src
 ### 本地开发
 1. 克隆仓库
 ```bash
-git clone https://github.com/yourusername/arxiv-paper-renamer.git
+git clone https://github.com/ChristopheZhao/arxiv-paper-renamer.git
 cd arxiv-paper-renamer
 ```
 
